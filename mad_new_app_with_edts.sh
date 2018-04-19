@@ -7,4 +7,3 @@ mv sample.erl $1.erl
 cd ../../..
 find . -type f -exec sed -i '' "s/sample/$1/g" {} \;
 echo ":name \"$1\"\n:node-sname \"$1\"\n:lib-dirs '(\"deps\")" > .edts
-
