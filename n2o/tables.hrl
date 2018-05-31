@@ -1,3 +1,3 @@
 -include_lib("kvs/include/kvs.hrl").
 
--record(feed, {?CONTAINER}).
+-record(your_record, {?ITERATOR(container), your_field}).
